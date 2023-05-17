@@ -9,6 +9,8 @@ Skin diseases pose a significant global health challenge, and their accurate and
 ## Dataset
 
 The model was trained, validated, and tested using the HAM10000 dataset, a comprehensive collection of dermatoscopic images from different populations, acquired and stored by different modalities. This dataset contains multiple classes of skin diseases, which allowed our model to learn the distinct features of each condition effectively.
+[Skin Cancer MNIST (HAM10000) Dataset](https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000)
+
 
 ## Model Performance
 
@@ -16,10 +18,14 @@ The model achieved an impressive overall accuracy of 0.97, underlining its relia
 
 ## Files in the Repository
 
-- `model.py`: Contains the code for the custom CNN model.
-- `training.py`: Contains the code for model training, validation, and testing.
-- `model_evaluation.py`: Contains the code for model evaluation and comparison with pre-trained models.
-- `data_preprocessing.py`: Contains the code for data preprocessing.
+- **01. custom model:** This folder likely contains files related to a custom model implementation or customization. It may include code, configuration files, or documentation specific to your custom model.
+
+- **02. resnet50:** This folder likely contains files related to the ResNet-50 model. ResNet-50 is a popular convolutional neural network architecture commonly used for image classification and computer vision tasks. The folder may include pre-trained weights, model definition files, or scripts for training and evaluating the ResNet-50 model.
+
+- **03. efficientNetB2:** This folder likely contains files related to the EfficientNet-B2 model. EfficientNet is a family of convolutional neural network architectures that are known for their efficiency and performance across various tasks. The EfficientNet-B2 model is a specific variant within the EfficientNet family. The folder may include model files, documentation, or utility scripts specific to the EfficientNet-B2 model.
+
+- **04. efficientnetB0:** This folder likely contains files related to the EfficientNet-B0 model. Similar to the EfficientNet-B2 folder, this folder is specific to the EfficientNet-B0 variant, which is another member of the EfficientNet family. It may contain model files, training scripts, or other resources specific to EfficientNet-B0.
+
 
 ## Conclusion
 

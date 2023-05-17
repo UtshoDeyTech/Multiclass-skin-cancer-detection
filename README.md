@@ -25,15 +25,31 @@ The model achieved an impressive overall accuracy of 0.97, underlining its relia
 
 The research establishes the potential of using a custom CNN model as a potent, efficient, and effective tool for dermatological diagnosis. With its superior performance and computational advantages, our model promises to enhance diagnostic accuracy, potentially enabling earlier and more effective treatments for skin diseases.
 
-## How to Use
+## How to Run Code
 
 1. Clone the repository.
-2. Run `data_preprocessing.py` to preprocess the HAM10000 dataset.
-3. Run `model.py` to create the custom CNN model.
-4. Run `training.py` to train, validate, and test the model.
-5. Run `model_evaluation.py` to evaluate the model's performance and compare it with pre-trained models.
+```bash
+git clone https://github.com/UtshoDeyTech/Thesis-Model.git
+```
+2. Change the directory
+```bash
+cd Thesis-Model
+```
+3. Create a Virtual Enviroment
+```bash
+python -m venv env
+```
+4. Activate the enviroment
+```bash
+.\env\Script\activate
+```
+5. Install the Libraries from the requirements.txt files
+```bash
+pip install -r requirements.txt
+```
+6. Now run this comand to open jupyter lab (If you used jupyter lab)
+```bash
+jupyter lab
+```
 
-## Requirements
-
-Use the following command to install the required packages:
 

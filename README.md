@@ -35,11 +35,11 @@ The research establishes the potential of using a custom CNN model as a potent, 
 
 1. Clone the repository.
 ```bash
-git clone https://github.com/UtshoDeyTech/Thesis-Model.git
+git clone https://github.com/UtshoDeyTech/Multiclass-skin-cancer-detection.git
 ```
 2. Change the directory
 ```bash
-cd Thesis-Model
+cd Multiclass-skin-cancer-detection
 ```
 3. Create a Virtual Enviroment
 ```bash
